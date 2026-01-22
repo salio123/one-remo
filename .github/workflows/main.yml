@@ -12,5 +12,5 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@main
       - name: list the directories
-        uses: ls -la
+        run: ls -la
  
