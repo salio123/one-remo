@@ -14,6 +14,6 @@ jobs:
       - name: list the directories
         run: ls -la
       - name: zip the package
-        run: zip -r python.zip hello.zip
+        run: zip -r python.zip hello.py
       - name: check the aws cli
         run: aws --version
