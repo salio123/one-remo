@@ -13,4 +13,9 @@ jobs:
         uses: actions/checkout@main
       - name: list the directories
         run: ls -la
- 
+      - name: zip the package
+        run: zip -r python.zip hello.zip
+        run: ls -la
+      - name: check the aws cli
+        run: aws --version
+        
